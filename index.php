@@ -1,15 +1,15 @@
 <?php
 
 require 'functions.php';
+require 'Database.php';
+//require 'router.php';
 
-$uri = parse_url($_SERVER['REQUEST_URI'])['path'];
+$config = require 'config.php';
 
-$routes = [
-    '/' => 'controllers/index.php',
-    '/about' => 'controllers/about.php',
-    '/contact' => 'controllers/contact.php'
-];
+$db = new Database($config['database']);
 
-if (array_key_exists($uri, $routes)) {
-    require $routes[$uri];
+$notes = $db -> query("select * from notes") -> fetchAll();
+
+foreach ($notes as $note) {
+    echo "<li>" . $note['body'] . "</li>";
 }
