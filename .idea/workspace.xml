@@ -4,9 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="366b6fc5-22e4-46d9-9c18-8a89978283da" name="Changes" comment="Form Validations">
+    <list default="true" id="366b6fc5-22e4-46d9-9c18-8a89978283da" name="Changes" comment="Simple Validator Class">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/note-create.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/note-create.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/note-create.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/notes/create.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/note.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/notes/show.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/notes.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/notes/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/note-create.view.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/notes/create.view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/note.view.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/notes/show.view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/notes.view.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/notes/index.view.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,6 +79,8 @@
       <recent name="C:\laragon\www\demo" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\laragon\www\demo\views\notes" />
+      <recent name="C:\laragon\www\demo\controllers\notes" />
       <recent name="C:\laragon\www\demo\controllers" />
       <recent name="C:\laragon\www\demo\views" />
     </key>
@@ -113,7 +121,7 @@
       <workItem from="1721554673897" duration="1278000" />
       <workItem from="1721587100059" duration="9423000" />
       <workItem from="1721668444905" duration="465000" />
-      <workItem from="1721754904216" duration="8227000" />
+      <workItem from="1721754904216" duration="9379000" />
     </task>
     <task id="LOCAL-00001" summary="Render the Notes and Note Pages">
       <option name="closed" value="true" />
@@ -139,7 +147,15 @@
       <option name="project" value="LOCAL" />
       <updated>1721771612617</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Simple Validator Class">
+      <option name="closed" value="true" />
+      <created>1721773916582</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1721773916582</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -160,7 +176,8 @@
     <MESSAGE value="Render the Notes and Note Pages" />
     <MESSAGE value="Escape Untrusted Input" />
     <MESSAGE value="Form Validations" />
-    <option name="LAST_COMMIT_MESSAGE" value="Form Validations" />
+    <MESSAGE value="Simple Validator Class" />
+    <option name="LAST_COMMIT_MESSAGE" value="Simple Validator Class" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
