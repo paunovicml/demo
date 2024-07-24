@@ -4,15 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="366b6fc5-22e4-46d9-9c18-8a89978283da" name="Changes" comment="Simple Validator Class">
+    <list default="true" id="366b6fc5-22e4-46d9-9c18-8a89978283da" name="Changes" comment="Notes Refactoring">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/note-create.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/notes/create.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/note.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/notes/show.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/notes.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/notes/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/note-create.view.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/notes/create.view.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/note.view.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/notes/show.view.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/notes.view.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/notes/index.view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/Database.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Response.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/Response.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Validator.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/Validator.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/about.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/about.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/contact.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/contact.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/notes/create.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/notes/create.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/notes/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/notes/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/notes/show.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/notes/show.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/functions.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/contact.view.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/contact.view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/notes/create.view.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/notes/create.view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/notes/index.view.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/notes/index.view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/notes/show.view.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/notes/show.view.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,6 +87,7 @@
       <recent name="C:\laragon\www\demo" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\laragon\www\demo\public" />
       <recent name="C:\laragon\www\demo\views\notes" />
       <recent name="C:\laragon\www\demo\controllers\notes" />
       <recent name="C:\laragon\www\demo\controllers" />
@@ -121,7 +130,8 @@
       <workItem from="1721554673897" duration="1278000" />
       <workItem from="1721587100059" duration="9423000" />
       <workItem from="1721668444905" duration="465000" />
-      <workItem from="1721754904216" duration="9379000" />
+      <workItem from="1721754904216" duration="10020000" />
+      <workItem from="1721834111217" duration="10251000" />
     </task>
     <task id="LOCAL-00001" summary="Render the Notes and Note Pages">
       <option name="closed" value="true" />
@@ -155,7 +165,15 @@
       <option name="project" value="LOCAL" />
       <updated>1721773916582</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Notes Refactoring">
+      <option name="closed" value="true" />
+      <created>1721775068324</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1721775068324</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -177,7 +195,8 @@
     <MESSAGE value="Escape Untrusted Input" />
     <MESSAGE value="Form Validations" />
     <MESSAGE value="Simple Validator Class" />
-    <option name="LAST_COMMIT_MESSAGE" value="Simple Validator Class" />
+    <MESSAGE value="Notes Refactoring" />
+    <option name="LAST_COMMIT_MESSAGE" value="Notes Refactoring" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
